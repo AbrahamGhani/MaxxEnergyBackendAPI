@@ -1,12 +1,14 @@
-package com.example.program.data;
+package com.example.program.controllers;
 
 
+import com.example.program.data.GenerationPoint;
+import com.example.program.data.PlantGeneration;
+import com.example.program.data.PlantGenerationRepository;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.stream.Collectors;
