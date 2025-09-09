@@ -1,4 +1,4 @@
-﻿package com.example.program.data;
+package com.example.program.data;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import java.math.BigDecimal;
